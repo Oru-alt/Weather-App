@@ -1,0 +1,37 @@
+.wrapper {
+  background-image: linear-gradient(
+    to bottom right,
+    #13daaf,
+    #14d7af 30%,
+    #26bba7 50%,
+    #3b929b 80%,
+    #55608e
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search-container {
+  margin-top: -15vh;
+}
+footer {
+  width: 25%;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+@media (max-width: 768px) {
+  footer {
+    width: 80% !important;
+  }
+}
